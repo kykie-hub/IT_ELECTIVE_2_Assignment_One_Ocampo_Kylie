@@ -1,8 +1,172 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Software Development Portfolio";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<section id="home" class="py-5 my-4 border-bottom">
+    <div class="row align-items-center">
+        <div class="col-md-8">
+            <h1 class="display-4 fw-bold">Kylie Lizzette Ann M. Ocampo</h1>
+            <p class="lead text-muted">Aspiring professional software developer</p>
+            <p class="fs-5">Welcome to my portfolio! I am an Information Technology student with a passion for creating software solutions and designing responsive web applications.</p>
+            <div class="mt-4">
+                <a href="#projects" class="btn btn-primary btn-lg me-2">View Projects</a>
+                <a href="#contact" class="btn btn-outline-secondary btn-lg">Contact Me</a>
+            </div>
+        </div>
+        <div class="col-md-4 text-center mt-4 mt-md-0">
+            <img src="~/images/489832252_9407358362651870_4500205099429004226_n.jpg" class="img-fluid rounded-circle shadow" alt="Profile Photo">
+
+            
+        </div>
+    </div>
+</section>
+
+<section id="about" class="py-5 my-4 border-bottom">
+    <h2 class="mb-4 fw-bold">About Me</h2>
+    <div class="row">
+        <div class="col-12">
+            <p class="fs-6 lh-lg">
+                I am a forward-thinking student and developer based in Muntinlupa, currently pursuing a Bachelor of Science in Information Technology at Lyceum of alabang. My technical milestones include building full-stack web applications and deploying scalable APIs.
+            </p>
+            <p class="fs-6 lh-lg">
+                I aim to become a Lead Software Engineer, specializing in full-stack cloud development and machine learning integration. Outside of coding, I am an avid trail runner and amateur landscape photographer. These creative, active hobbies keep me grounded and energized, preventing burnout and fueling my problem-solving skills when tackling complex software architecture.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="skills" class="py-5 my-4 border-bottom">
+    <h2 class="mb-4 fw-bold">Skills</h2>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+        <div class="col">
+            <div class="card h-100 shadow-sm border-0 bg-light">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold text-primary">Languages</h5>
+                    <p class="card-text">Java, C++, C#, Python, VBA</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 shadow-sm border-0 bg-light">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold text-primary">Web Tech</h5>
+                    <p class="card-text">HTML, CSS, ASP.NET Core MVC</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 shadow-sm border-0 bg-light">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold text-primary">Databases</h5>
+                    <p class="card-text">Microsoft Access</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 shadow-sm border-0 bg-light">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold text-primary">Tools</h5>
+                    <p class="card-text">Visual Studio, Git/GitHub, Figma, Cisco Packet Tracer, Adobe Photoshop, Blender</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="py-5 my-4 border-bottom">
+    <h2 class="mb-4 fw-bold">Projects</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <img src="~/images/icon ocampo.png" class="flex-shrink-0 me-3" alt="Project Icon" style="width: 25px; height: 25px; object-fit: contain;">
+             
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title fw-bold">Student Management System – Procedural Core</h5>
+                    <p class="card-text flex-grow-1">A procedural programming-based console application developed to organize student records, compute grade averages, and assess overall academic performance.</p>
+                    <div class="mb-3"><span class="badge bg-secondary">C#</span></div>
+                    <a href="https://github.com/kykie-hub/BSIT31E1_PRELIM_H1_Ocampo_Kylie.git" target="_blank" class="btn btn-outline-primary btn-sm mt-auto">View Details</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <img src="~/images/icon ocampo.png" class="flex-shrink-0 me-3" alt="Project Icon" style="width: 25px; height: 25px; object-fit: contain;">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title fw-bold">File Ingestion Engine</h5>
+                    <p class="card-text flex-grow-1">A backend processing tool built with the Strategy and Factory design patterns to handle different file formats, process text streams, and validate structured data..</p>
+                    <div class="mb-3"><span class="badge bg-secondary">C#</span></div>
+                    <a href="https://github.com/kykie-hub/BSIT31E1_PRELIM_H2_Ocampo_Kylie-.git" target="_blank" class="btn btn-outline-primary btn-sm mt-auto">View Details</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <img src="~/images/icon ocampo.png" class="flex-shrink-0 me-3" alt="Project Icon" style="width: 25px; height: 25px; object-fit: contain;">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title fw-bold">FizzBuzz Logic Evaluation</h5>
+                    <p class="card-text flex-grow-1">An algorithmic console application demonstrating control flow architecture, nested conditional branching, and modulo arithmetic evaluations to track sequential numeric outputs.</p>
+                    <div class="mb-3"><span class="badge bg-secondary">C#</span></div>
+                    <a href="https://github.com/kykie-hub/BSIT31E1_PRELIM_A1_Ocampo_Kylie.git" target="_blank" class="btn btn-outline-primary btn-sm mt-auto">View Details</a>
+                </div>
+            </div>
+        </div>
+           <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="~/images/icon ocampo.png" class="flex-shrink-0 me-3" alt="Project Icon" style="width: 25px; height: 25px; object-fit: contain;">
+                    <div class="card-body d-flex flex-column">
+                    <h5 class="card-title fw-bold">Console Calculator Engine</h5>
+                    <p class="card-text flex-grow-1">An interactive console application implementing an event-driven loop, robust type-conversion validation, exception handling for mathematical boundary conditions, and conditional arithmetic evaluation.</p>
+                        <div class="mb-3"><span class="badge bg-secondary">C#</span></div>
+                    <a href="https://github.com/kykie-hub/BSIT31E1_PRELIM_A2_Ocampo_Kylie.git" target="_blank" class="btn btn-outline-primary btn-sm mt-auto">View Details</a>
+    </div>
+    </div>
+     </div>
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <img src="~/images/icon ocampo.png" class="flex-shrink-0 me-3" alt="Project Icon" style="width: 25px; height: 25px; object-fit: contain;">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title fw-bold">Http client starter</h5>
+                    <p class="card-text flex-grow-1">An ASP.NET Core Web API initialization script that configures dependency injection, core services, request routing, and secure API controllers.</p>
+                    <div class="mb-3"><span class="badge bg-secondary">C#</span> <span class="badge bg-secondary">json</span></div>
+                    <a href="https://github.com/kykie-hub/HttpClientStarter-1-.git" target="_blank" class="btn btn-outline-primary btn-sm mt-auto">View Details</a>
+    </div>
+    </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <img src="~/images/icon ocampo.png" class="flex-shrink-0 me-3" alt="Project Icon" style="width: 25px; height: 25px; object-fit: contain;">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title fw-bold">Transport Polymorphism Challenge</h5>
+                    <p class="card-text flex-grow-1">A test application built using object-oriented programming to demonstrate inheritance, interface implementation, factory pattern usage, and polymorphic behavior among different classes.</p>
+                    <div class="mb-3"><span class="badge bg-secondary">C#</span></div>
+                    <a href="https://github.com/kykie-hub/BSIT_31E1_PRELIM_Q1_Ocampo_Kylie.git" target="_blank" class="btn btn-outline-primary btn-sm mt-auto">View Details</a>
+    </div>
+            </div>
+                </div>
+                    </div>
+</section>
+
+<section id="contact" class="py-5 my-4">
+    <h2 class="mb-4 fw-bold">Contact Information</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <ul class="list-unstyled fs-5">
+                <li class="mb-2"><strong>Email:</strong>kykie1008@gmail.com</li>
+                <li class="mb-2"><strong>Mobile:</strong> +63 993 080 9143</li>
+                <li class="mb-2">
+                    <strong>GitHub:</strong>
+                    <a href="https://github.com/kykie-hub" target="_blank" class="text-decoration-none">github.com/justin3435-324234</a>
+                </li>
+                <li class="mb-2">
+                    <strong>Facebook:</strong>
+                    <a href="https://www.facebook.com/kylie.l.ocampo" target="_blank" class="text-decoration-none">facebook.com/profile</a>
+                </li>
+            </ul>
+         <div class="mt-4">
+                <a href="~/OCAMPO-KYLIE-RESUME-2025 (1).pdf" download="ocampo resume" class="btn btn-success btn-lg">Download Resume</a>
+
+            </div>
+        </div>
+    </div>
+</section>
