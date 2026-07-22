@@ -1,0 +1,48 @@
+﻿<section id="contact" class="py-5 my-4">
+    <h2 class="mb-4 fw-bold">@ViewData["Title"]</h2>
+
+    <div class="row">
+        <div class="col-md-6">
+            <ul class="list-unstyled fs-5">
+
+                <li class="mb-2">
+                    <strong>Email:</strong>
+                    @ViewData["Email"]
+                </li>
+
+                <li class="mb-2">
+                    <strong>Mobile:</strong>
+                    @ViewData["Mobile"]
+                </li>
+
+                <li class="mb-2">
+                    <strong>GitHub:</strong>
+                    <a href="@ViewData["GitHubUrl"]"
+                       target="_blank"
+                       class="text-decoration-none">
+                        @ViewData["GitHubText"]
+                    </a>
+                </li>
+
+                <li class="mb-2">
+                    <strong>Facebook:</strong>
+                    <a href="@ViewData["FacebookUrl"]"
+                       target="_blank"
+                       class="text-decoration-none">
+                        @ViewData["FacebookText"]
+                    </a>
+                </li>
+
+            </ul>
+
+            <div class="mt-4">
+                <a href="@Url.Content(ViewData["Resume"].ToString())"
+                   download="Ocampo Resume"
+                   class="btn btn-success btn-lg">
+                    Download Resume
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
